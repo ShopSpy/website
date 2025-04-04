@@ -1,2 +1,25 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/typography';
+@import 'tw-animate-css';
+
+@font-face {
+	font-family: 'DMSans';
+	src: url('/DMSans.ttf') format('truetype');
+	font-weight: 100 900;
+	font-style: normal;
+}
+
+@theme {
+	--font-display: 'DMSans', 'sans-serif';
+	--color-shopspy-50: #f1f8f3;
+	--color-shopspy-100: #dcefe0;
+	--color-shopspy-200: #bcdec5;
+	--color-shopspy-300: #90c5a2;
+	--color-shopspy-400: #60a77a;
+	--color-shopspy-500: #3f8a5d;
+	--color-shopspy-600: #337c52;
+	--color-shopspy-700: #24583b;
+	--color-shopspy-800: #1f4631;
+	--color-shopspy-900: #1a3a2a;
+	--color-shopspy-950: #0e2017;
+}
